@@ -11,6 +11,7 @@
     courseSubtitle: document.getElementById("courseSubtitle"),
     courseInstructor: document.getElementById("courseInstructor"),
     courseOverview: document.getElementById("courseOverview"),
+    overviewToggle: document.getElementById("overviewToggle"),
     sections: document.getElementById("sections"),
     searchInput: document.getElementById("searchInput"),
     coreOnlyInput: document.getElementById("coreOnlyInput"),
@@ -21,10 +22,12 @@
   const state = {
     query: "",
     coreOnly: false,
+    overviewExpanded: false,
     sections: [],
   };
 
   renderCourseHeader();
+  bindOverviewToggle();
   renderSections();
   bindControls();
   applyFilters();
@@ -260,6 +263,24 @@
     a.rel = "noopener noreferrer";
     a.textContent = label;
     return a;
+  }
+
+  function bindOverviewToggle() {
+    if (!refs.overviewToggle || !refs.courseOverview) {
+      return;
+    }
+
+    refs.overviewToggle.addEventListener("click", () => {
+      setOverviewExpanded(!state.overviewExpanded);
+    });
+
+    setOverviewExpanded(false);
+  }
+
+  function setOverviewExpanded(expanded) {
+    state.overviewExpanded = Boolean(expanded);
+    refs.overviewToggle.setAttribute("aria-expanded", state.overviewExpanded ? "true" : "false");
+    refs.courseOverview.classList.toggle("is-open", state.overviewExpanded);
   }
 
   function bindControls() {
