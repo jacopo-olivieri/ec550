@@ -98,8 +98,8 @@ h1 {
   gap: 10px;
   grid-template-columns: 1.35fr 0.9fr;
   grid-template-areas:
-    "search buttons"
-    "check result";
+    "search result"
+    "check .";
   align-items: end;
 }
 
@@ -153,13 +153,6 @@ input[type="checkbox"]:focus-visible {
   gap: 10px;
   font-size: 0.92rem;
   font-weight: 600;
-}
-
-.button-control {
-  grid-area: buttons;
-  display: flex;
-  gap: 8px;
-  justify-content: flex-end;
 }
 
 /* Ghost buttons */
@@ -452,13 +445,7 @@ code {
     grid-template-areas:
       "search"
       "check"
-      "buttons"
       "result";
-  }
-
-  .button-control {
-    justify-content: flex-start;
-    flex-wrap: wrap;
   }
 
   .result-count {

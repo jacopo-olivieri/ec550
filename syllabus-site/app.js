@@ -14,8 +14,6 @@
     sections: document.getElementById("sections"),
     searchInput: document.getElementById("searchInput"),
     coreOnlyInput: document.getElementById("coreOnlyInput"),
-    expandAllBtn: document.getElementById("expandAllBtn"),
-    collapseAllBtn: document.getElementById("collapseAllBtn"),
     resultCount: document.getElementById("resultCount"),
     noResults: document.getElementById("noResults"),
   };
@@ -108,7 +106,7 @@
         count: sectionCount,
         papers: paperNodes,
         totalCount: paperNodes.length,
-        expanded: sectionIndex === 0,
+        expanded: true,
         setExpanded(expanded) {
           this.expanded = Boolean(expanded);
           this.button.setAttribute("aria-expanded", this.expanded ? "true" : "false");
@@ -275,21 +273,6 @@
       applyFilters();
     });
 
-    refs.expandAllBtn.addEventListener("click", () => {
-      state.sections.forEach((section) => {
-        if (!section.root.hidden) {
-          section.setExpanded(true);
-        }
-      });
-    });
-
-    refs.collapseAllBtn.addEventListener("click", () => {
-      state.sections.forEach((section) => {
-        if (!section.root.hidden) {
-          section.setExpanded(false);
-        }
-      });
-    });
   }
 
   function applyFilters() {
