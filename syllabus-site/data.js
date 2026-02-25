@@ -29,8 +29,7 @@ window.SYLLABUS_DATA = {
           doi: "10.1086/730204",
           core: true,
           localPdf: "papers/Burlig & Preonas 2024 - Out of the Darkness.pdf",
-          abstract:
-            "Nearly one billion people still lack electricity access. Using regression-discontinuity and difference-in-differences designs around India's RGGVY program, the authors find large increases in access but limited average economic effects after 3-5 years. Instrumental-variable scaling suggests full electrification lowers welfare in smaller villages but generates high returns in larger villages.",
+          abstract: "Nearly 1 billion people still lack electricity access. Developing countries are investing billions of dollars in “last-mile” electrification, although evidence on its economic impacts is mixed. We estimate the development effects of rural electrification in the context of India’s national electrification program, RGGVY (Rajiv Gandhi Grameen Vidyutikaran Yojana), which reached over 400,000 villages. Using regression-discontinuity and difference-in-differences designs, we estimate that RGGVY meaningfully expanded electricity access. However, the program generated limited economic impacts after 3–5 years. Scaling our intent-to-treat estimates using instrumental variables, we find that “full electrification” reduces welfare in small villages but has a 33% internal rate of return in large villages.",
           abstractStatus: "zotero",
         },
         {
@@ -40,9 +39,10 @@ window.SYLLABUS_DATA = {
           authors: ["Abdoulaye Cisse"],
           year: 2025,
           venue: "Working paper",
+          url: "https://escholarship.org/uc/item/37h2h4ks",
           core: false,
-          abstract:
-            "Using geocoded outage data, billing records, and staggered reliability projects in Senegal, this paper estimates causal effects of service quality improvements. Reliability projects reduce outage duration by about 40 percent and increase electricity consumption by about 8 percent. The paper also finds higher willingness to pay for reliable supply and estimates returns to reliability investments above 30 percent.",
+          localPdf: "papers/Cisse 2025 - The Value of Electricity Reliability.pdf",
+          abstract: "Governments and donors invest heavily in expanding access to electricity in low-income countries. However, recent studies document small impacts of access to grid electricity in several low-income countries. This paper provides new evidence on the impact of grid reliability on the willingness to pay (WTP) for grid electricity based on large-scale reliability improvement projects in Senegal's electricity supply network. I use high-frequency geocoded administrative data on outages, customer-level bills covering the universe of electricity users, and rich geocoded data on the economic activities of households and firms to conduct two analyses. First, I estimate the causal effect of improved reliability on consumers through a difference-in-differences that leverages the variation in the timing of reliability projects. Second, I estimate a quantitative demand model and a random-coefficient discrete choice model of energy sources. I find that reliability projects increase the WTP for an additional hour of grid electricity by 10%, from an average of $0.20. This increase varies over peak and off-peak hours and differs significantly across customer types (firms versus households) and by establishment size (small versus large). This finding corresponds to an internal rate of return for reliability projects exceeding 30%. My findings suggest that reliability improvements can significantly increase the value of grid electricity, even in contexts where baseline reliability and the WTP for grid electricity are low.",
           abstractStatus: "zotero",
         },
         {
@@ -56,8 +56,7 @@ window.SYLLABUS_DATA = {
           core: true,
           localPdf:
             "papers/Dinkelman 2011 - The Effects of Rural Electrification on Employment.pdf",
-          abstract:
-            "This paper studies South Africa's rural electrification rollout using new data and both instrumental-variables and fixed-effects strategies. Electrification significantly increases female employment within five years, while also changing hours worked and earnings patterns. Evidence suggests a mechanism through reduced home-production time and increased scope for microenterprise activity.",
+          abstract: "This paper estimates the impact of electrification on employment growth by analyzing South Africa's mass roll-out of electricity to rural households. Using several new data sources and two different identification strategies (an instrumental variables strategy and a fixed effects approach), I find that electrification significantly raises female employment within five years. This new infrastructure appears to increase hours of work for men and women, while reducing female wages and increasing male earnings. Several pieces of evidence suggest that household electrification raises employment by releasing women from home production and enabling microenterprises. Migration behavior may also be affected. (JEL H54, L94, L98, O15, O18, R23)",
           abstractStatus: "zotero",
         },
         {
@@ -69,8 +68,9 @@ window.SYLLABUS_DATA = {
           venue: "Regional Science and Urban Economics",
           doi: "10.1016/j.regsciurbeco.2020.103625",
           core: false,
-          abstract: "Abstract not yet available in Zotero. Add it in data.js.",
-          abstractStatus: "placeholder",
+          localPdf: "papers/Fried & Lagakos 2021 - Rural Electrification, Migration and Structural Transformation.pdf",
+          abstract: "To what extent does rural electrification induce structural change and alter migration patterns? This paper addresses this question using a simple multi-sector spatial model and evidence from a panel of rural Ethiopian villages during its recent expansion of electricity supply. We find that electrification raised irrigation rates, agricultural yields and non-agricultural business activity. Furthermore, electrified villages experienced higher rates of in-migration and lower rates of out-migration. Each of these predictions is qualitatively consistent with the predictions of our model. Our results suggest that rural electrification helped facilitate structural transformation of villages economies in Ethiopia and slowed out-migration from rural areas.",
+          abstractStatus: "zotero",
         },
         {
           id: "greenstone_2024",
@@ -81,8 +81,7 @@ window.SYLLABUS_DATA = {
           doi: "10.1257/pandp.20241000",
           core: true,
           localPdf: "papers/Greenstone 2024 - Global Energy Challenge.pdf",
-          abstract:
-            "This paper frames climate policy as part of a broader Global Energy Challenge with three linked objectives: affordable and reliable energy, clean air, and reduced climate damages. It presents seven facts that clarify the trade-offs among these goals. The paper closes with policy directions including social-cost pricing, innovation investment, improved environmental information, and treating energy as a private good.",
+          abstract: "Rather than facing an isolated climate change challenge, this paper argues that the\nworld must confront the Global Energy Challenge (GEC) that requires all countries\nto make trade-offs between three often competing and interrelated goals: inexpensive\nand reliable energy, clean air, and limiting damages from climate change. This paper\npresents seven facts that help illuminate the contours of the GEC and the interactions\nbetween the three goals. It concludes by outlining potential solutions: pricing energy at\nits full social cost, investing in technical and policy innovation, improving information\non pollution and climate damages, and treating energy as a private good.",
           abstractStatus: "zotero",
         },
         {
@@ -95,8 +94,7 @@ window.SYLLABUS_DATA = {
           core: true,
           localPdf:
             "papers/Lee et al 2020 - experimental evidence on the economics of rural electrification.pdf",
-          abstract:
-            "The authors run an experiment randomizing grid expansion in rural Kenya. They find substantial scale economies in distribution, sharp price sensitivity in connection demand, and very low post-connection consumption levels. Medium-run impacts on economic and non-economic outcomes are limited, highlighting important policy design trade-offs.",
+          abstract: "We present results from an experiment that randomized the expansion of electric grid infrastructure in rural Kenya. Electricity distribution is a canonical example of a natural monopoly. Experimental variation in the number of connections, combined with administrative cost data, reveals considerable scale economies, as hypothesized. Randomized price offers indicate that demand for connections falls sharply with price. Among newly connected households, average electricity consumption is very low, implying low consumer surplus. We do not find meaningful medium-run impacts on economic and noneconomic outcomes. We discuss implications for current efforts to increase rural electrification in Kenya and highlight how various factors may affect interpretation.",
           abstractStatus: "zotero",
         },
         {
@@ -108,8 +106,8 @@ window.SYLLABUS_DATA = {
           venue: "American Economic Journal: Applied Economics",
           doi: "10.1257/app.5.2.200",
           core: false,
-          abstract:
-            "This paper estimates development effects of electrification in Brazil from 1960 to 2000. The authors build a geography-based instrument from simulated grid expansion paths and show that accounting for endogenous targeting matters. They find large positive effects on development, with broad labor-productivity improvements across sectors and regions.",
+          localPdf: "papers/Lipscomb et al 2013 - Development Effects of Electrification.pdf",
+          abstract: "We estimate the development effects of electrification across Brazil over the period 1960–2000. We simulate a time series of hypothetical electricity grids for Brazil for the period 1960–2000 that show how the grid would have evolved had infrastructure investments been made based solely on geography-based cost considerations. Using the model as an instrument, we document large positive effects of electrification on development that are underestimated when one fails to account for endogenous targeting. Broad-based improvement in labor productivity across sectors and regions rather than general equilibrium re-sorting appears to be the likely mechanism by which these development gains are realized. (JEL H54, L94, O11, O13, Q41, Q43)",
           abstractStatus: "zotero",
         },
         {
@@ -120,8 +118,8 @@ window.SYLLABUS_DATA = {
           venue: "American Economic Review",
           url: "https://www.jstor.org/stable/43497053",
           core: false,
-          abstract:
-            "Using a structural model of household electricity demand in Colombia, this paper studies how subsidies interact with infrastructure quality. It shows that subsidy designs that transfer more to areas with unreliable supply can discourage investment in network upgrades. The results highlight how policy can unintentionally lock in low-quality service.",
+          localPdf: "papers/McRae 2015 - Infrastructure Quality and the Subsidy Trap.pdf",
+          abstract: "Electricity and water are often subsidized in developing countries to increase their affordability for low-income households. Ideally, such subsidies would create sufficient demand in poor neighborhoods to encourage private investment in their infrastructure. Instead, many regions receiving large subsidies have precarious distribution networks supplying users who never pay. Using a structural model of household electricity demand in Colombia, I predict the change in consumption and profits from upgrading low-quality electricity connections. I show that the existing subsidies, which provide greater transfers to areas with unreliable supply, deter investment to modernize infrastructure. Finally, I analyze alternative programs with stronger investment incentives.",
           abstractStatus: "zotero",
         },
         {
@@ -132,8 +130,9 @@ window.SYLLABUS_DATA = {
           venue: "Journal of Development Economics",
           doi: "10.1016/j.jdeveco.2011.06.010",
           core: false,
-          abstract: "Abstract not yet available in Zotero. Add it in data.js.",
-          abstractStatus: "placeholder",
+          localPdf: "papers/Rud 2012 - Electricity Provision and Industrial Development.pdf",
+          abstract: "I investigate the effect of electricity provision on industrialization using a panel of Indian states for 1965-1984. To address the endogeneity of investment in electrification, I use the introduction of a new agricultural technology intensive in irrigation (the Green Revolution) as a natural experiment. As electric pumpsets are used to provide farmers with cheap irrigation water, I use the uneven availability of groundwater at the start of the Green Revolution to predict divergence in the expansion of the electricity network and, ultimately, to quantify the effect of electrification on industrial outcomes. I present a series of tests to show that the electrification channel remains the most important one among alternative explanations that could link groundwater availability to industrialization directly or indirectly. Results show that an increase in one standard deviation in the measure of electrification is associated with an increase of around 14% in manufacturing output for a state at the mean of the distribution.",
+          abstractStatus: "zotero",
         },
       ],
     },
@@ -149,8 +148,8 @@ window.SYLLABUS_DATA = {
           venue: "American Economic Review",
           doi: "10.1257/aer.20140389",
           core: false,
-          abstract:
-            "This paper estimates impacts of electricity shortages on Indian manufacturing using hydro-driven supply shifts as instruments. Average reported shortages reduce plant revenues and producer surplus by around 5-10 percent, while productivity losses are smaller because many inputs can be stored. Shortages also distort firm size because scale economies in backup generation favor larger plants.",
+          localPdf: "papers/Allcott et al 2016 - How Do Electricity Shortages Affect Industry.pdf",
+          abstract: "We estimate the effects of electricity shortages on Indian manufacturers, instrumenting with supply shifts from hydroelectric power availability. We estimate that India's average reported level of shortages reduces the average plant's revenues and producer surplus by 5 to 10 percent, but average productivity losses are significantly smaller because most inputs can be stored during outages. Shortages distort the plant size distribution, as there are significant economies of scale in generator costs and shortages more severely affect plants without generators. Simulations show that offering interruptible retail electricity contracts could substantially reduce the impacts of shortages. (JEL D24, L60, L94, O13, O14, Q41)",
           abstractStatus: "zotero",
         },
         {
@@ -163,8 +162,7 @@ window.SYLLABUS_DATA = {
           core: true,
           localPdf:
             "papers/Burgess et al 2025 - The Global Electrification Frontier and Climate Change.pdf",
-          abstract:
-            "Using experimental price variation in Bihar, India, this paper estimates demand across grid and off-grid electricity options during rapid electrification. Household surplus from electrification rises substantially, and both solar and the grid increase access. Grid expansion and subsidies also crowd out off-grid solar demand, with implications that differ across countries with weaker grids.",
+          abstract: "Off-grid solar promises a low-cost and carbon-free path to electrification. But do poor households want it? We run a multi-year pricing experiment in rural India to estimate demand over all electricity sources, including off-grid solar, diesel generators and the grid. We find that off-grid solar is an important stop-gap, but households value grid electrification 6.6 times more. The grid, however, barely increases global surplus, because grid marginal carbon damages nearly offset households' gains. We apply our model to data from Africa and find a similarly strong preference for the grid among households there, underscoring the external validity of our results.",
           abstractStatus: "zotero",
         },
         {
@@ -175,8 +173,8 @@ window.SYLLABUS_DATA = {
           venue: "Journal of Economic Behavior and Organization",
           doi: "10.1016/j.jebo.2014.04.011",
           core: false,
-          abstract:
-            "Using two rounds of a large household panel in rural India, this paper estimates returns to electricity access and reliability. A grid connection raises non-agricultural income, and the gains are much larger when electricity quality is higher. The results emphasize that connection metrics alone can understate the value of reliable supply.",
+          localPdf: "papers/Chakravorty et al 2014 - Does the Quality of Electricity Matter.pdf",
+          abstract: "This paper estimates the returns to household income due to improved access to electricity in rural India. We examine the effect of connecting a household to the grid and of the quality of electricity, defined as hours of daily supply. The analysis is based on two rounds of a representative panel of more than 10,000 households. We use the district-level density of transmission cables as instrument for the electrification status of the household. We find that a grid connection increases non-agricultural incomes of rural households by about 9% during the study period (1994–2005). However, a grid connection and a higher quality of electricity (in terms of fewer outages and more hours per day) increases non-agricultural incomes by about 28.6% in the same period.",
           abstractStatus: "zotero",
         },
         {
@@ -188,8 +186,7 @@ window.SYLLABUS_DATA = {
           doi: "10.1257/app.20180155",
           core: true,
           localPdf: "papers/Jack & Smith  2020 - Charging ahead.pdf",
-          abstract:
-            "In Cape Town, over 4,000 monthly-billed customers were switched to prepaid metering with randomized timing. Electricity use falls by about 14 percent after switching, partly through higher marginal price sensitivity. Utility revenue effects are positive once lower collection costs are accounted for, especially for poorer and more indebted customers.",
+          abstract: "Monthly bills for services such as electricity often go unpaid in developing countries. Prepaid meters offer a potential technological solution. In Cape Town, South Africa, over 4,000 residential customers on monthly billing were switched to prepaid metering, with random variation in the timing of the switch. In response, electricity use falls by 14 percent, driven at least in part by an increase in marginal price sensitivity. The decrease in revenue to the municipal electric utility is more than offset by lower revenue recovery costs. Switching poorer and more in-debt customers generates the greatest net revenue gains to the utility.",
           abstractStatus: "zotero",
         },
         {
@@ -201,8 +198,8 @@ window.SYLLABUS_DATA = {
           venue: "Journal of Development Economics",
           doi: "10.1016/j.jdeveco.2023.103234",
           core: false,
-          abstract:
-            "Combining newly digitized utility-network data with manufacturing census records, this paper studies how grid expansion affects industrial development in Indonesia. Using an instrumental-variables strategy based on colonial infrastructure and network requirements, it finds that electrification increases firm entry, firm exit, employment, and output. Most output gains come through increased entry and turnover dynamics.",
+          localPdf: "papers/Kassem 2024 - Does Electrification Cause Industrial Development.pdf",
+          abstract: "I ask whether electrification causes industrial development. I combine newly digitized data from the Indonesian state electricity company with rich manufacturing census data. To understand how electrification can cause industrial development, I shed light on an important economic mechanism — firm turnover. In particular, I study the effect of the extensive margin of electrification (grid expansion) on the extensive margin of industrial development (firm entry and exit). To deal with endogenous grid placement, I use an instrumental variable approach exploiting the location of colonial electric infrastructure and the need for an interconnected grid on the island of Java. I find that electrification causes industrial development by increasing the number of manufacturing firms, manufacturing workers, and manufacturing output. Electrification increases firm entry rates, but also exit rates, and entry accounts for most of the increase in output. This is consistent with electrification lowering entry costs, increasing competition, and forcing unproductive firms to exit more often.",
           abstractStatus: "zotero",
         },
         {
@@ -211,9 +208,10 @@ window.SYLLABUS_DATA = {
           authors: ["Niclas Moneke"],
           year: 2020,
           venue: "Working paper",
+          url: "https://niclasmoneke.com/research/",
           core: false,
-          abstract:
-            "This paper studies bundled road and electricity investments in Ethiopia using a spatial general-equilibrium framework and reduced-form evidence. Roads alone tend to shift employment toward services, while adding electrification produces strong reversals toward manufacturing. Structural estimates imply substantially larger welfare gains from bundled big-push investments than from isolated road or electricity expansion.",
+          localPdf: "papers/Moneke 2020 - Can Big Push Infrastructure Unlock Development.pdf",
+          abstract: "Roads are instrumental to market access. Electricity is a key technology for modern production. Both have been widely studied in isolation. In reality, infrastructure investments are commonly bundled. How such big push infrastructure investments interact in causing economic development, however, is not well understood. To this end, I first develop a spatial general equilibrium model to understand how big push infrastructure investments may differ from isolated investments. Second, I track the large-scale road and electricity network expansions in Ethiopia over the last two decades and present causal reduced-form evidence confirming markedly different patterns: access to an all-weather road alone increases services employment, at the expense of manufacturing. In contrast, additionally electrified locations see large reversals in the manufacturing employment shares. Third, I leverage the model to structurally estimate the implied welfare effects of big push infrastructure investments. I find welfare in Ethiopia increased by at least 11% compared to no investments, while isolated counterfactual road (electrification) investments would have increased welfare by only 2% (0.7%).",
           abstractStatus: "zotero",
         },
         {
@@ -225,8 +223,7 @@ window.SYLLABUS_DATA = {
           doi: "10.3386/w29154",
           core: true,
           localPdf: "papers/Ryan 2021 - Holding up green energy.pdf",
-          abstract:
-            "Using universe data from Indian solar procurement auctions, this paper studies hold-up risk from weak contract enforcement. Counterparty risk raises solar prices by roughly 10 percent, while central-government intermediation removes most of that premium. Because demand is elastic, higher risk-induced prices significantly reduce green-energy investment.",
+          abstract: "Green energy is produced by relationship-specific assets that are vulnerable to hold-up if contracts are not strictly enforced. I study the role of counterparty risk in the procurement of green energy using data on the universe of solar procurement auctions in India. The Indian context allows clean estimates of how risk affects procurement, because solar power plants set up in the same states, by the same firms, are procured in auctions variously intermediated by either risky states themselves or the central government. I find that: (i) the counterparty risk of an average state increases solar energy prices by 10%; (ii) the intermediation of the central government eliminates this risk premium; (iii) higher prices due to risk reduce investment, because state demand for green energy is elastic. The results suggest that the risk of hold-up places developing countries at a disadvantage in the procurement of green energy.",
           abstractStatus: "zotero",
         },
         {
@@ -237,8 +234,8 @@ window.SYLLABUS_DATA = {
           venue: "Journal of Economic Perspectives",
           doi: "10.1257/jep.26.1.119",
           core: false,
-          abstract:
-            "This paper argues that medium-run growth in global energy demand will be driven heavily by low-income households in developing countries as they adopt electricity, appliances, and vehicles for the first time. The authors emphasize extensive-margin adoption dynamics and S-shaped ownership curves. They conclude that standard forecasts may understate future demand growth in developing economies.",
+          localPdf: "papers/Wolfram et al 2012 - How Will Energy Demand Develop in the Developing World.pdf",
+          abstract: "Over the next 25 to 30 years, nearly all of the growth in energy demand, fossil fuel use, associated local pollution, and greenhouse gas emissions is forecast to come from the developing world. This paper argues that the world's poor and near-poor will play a major role in driving medium-run growth in energy consumption. As the world economy expands and poor households' incomes rise, they are likely to get connected to the electricity grid, gain access to good roads, and purchase energy-using assets like appliances and vehicles for the first time. We argue that the current forecasts for energy demand in the developing world may be understated because they do not accurately capture growth in demand along the extensive margin, as low-income households buy their first durable appliances and vehicles. Within a country, the adoption of energy-using assets typically follows an S-shaped pattern: among the very poor, we see little increase in the number of households owning refrigerators, vehicles, air conditioners, and other assets as incomes go up; above a first threshold income level, we see rapid increases of ownership with income; and above a second threshold, increases in ownership level off. A large share of the world's population has yet to go through the first transition, suggesting there is likely to be a large increase in the demand for energy in the coming years.",
           abstractStatus: "zotero",
         },
       ],
@@ -256,8 +253,7 @@ window.SYLLABUS_DATA = {
           doi: "10.3386/w31615",
           core: true,
           localPdf: "papers/Arkolakis & Walsh 2023 - Clean growth.pdf",
-          abstract:
-            "The paper develops a spatial theory of clean growth that embeds electricity production and transmission networks, learning-by-doing, and comparative advantage in renewable resources. Calibrations imply that renewables can dominate the global power system by around 2040 under a range of scenarios. Policy and grid investments further accelerate adoption and generate substantial welfare gains.",
+          abstract: "We provide a spatial theory of clean growth to assess the global impact of the rise of renewable energy. We model the details of the combined production and transmission network of electricity (“the grid”) that determine the supply and losses of energy in space. The local rate of clean energy adoption depends on learning-by-doing, the global electricity and trade network, and regional comparative advantage in renewable resources. We use the model to measure the aggregate and spatial implications of clean growth. We find that the world’s power system is likely to be dominated by renewables by 2040 in a range of scenarios, with substantial welfare gains, even in the absence of policy. Incorporating policy, we find that the US Inflation Reduction Act significantly accelerates renewable uptake, and generates substantial economic benefits. In addition, planned grid improvements lower prices substantially in many areas of the US, justifying their cost of construction.",
           abstractStatus: "zotero",
         },
         {
@@ -273,10 +269,10 @@ window.SYLLABUS_DATA = {
           ],
           year: 2023,
           venue: "Working paper",
+          url: "https://ignaciobanares.com/solar.pdf",
           core: true,
           localPdf: "papers/Sanchez et al 2025 - Ray of hope.pdf",
-          abstract:
-            "This paper examines city-level industrial policies in China and their role in the rise of solar photovoltaics. Using novel policy text measures, new data on innovation and production, and synthetic difference-in-differences, the authors find strong positive effects from production and R&D subsidies. Demand-side installation subsidies, by contrast, have limited effects on local innovation and production.",
+          abstract: "Do industrial policies that promote clean energy offer a \"ray of hope\", increasing a country's growth and welfare, whilst simultaneously reducing carbon emissions? We study the impact of Chinese solar subsidies whose implementation by city-regions went alongside massive expansion of the sector and a dramatic fall in global solar prices. We construct new city and firm panel data on solar policies, patenting and output. Using synthetic-difference-in-differences 2004-2020, we find production and innovation subsidies were more effective than demand-side (installation) subsidies in generating large and persistent increases in local innovation, net entry, exports, output and inputs. Demand policies did, however, reduce local pollution. To examine aggregate effects, we build and structurally estimate a quantitative spatial model with endogenous innovation and heterogeneous productivity across firms and cities, which accounts for business stealing and knowledge spillovers. Counterfactual analysis shows that: (i) local effects remain substantial at the macro level explaining 40%-50% of the aggregate changes in solar innovation, prices and revenues; (ii) social benefits to Chinese citizens exceed subsidy costs by 65% (and double this when environmental benefits are included); and (iii) although all subsidy types increase welfare, innovation subsidies are the most cost-effective.",
           abstractStatus: "zotero",
         },
         {
@@ -287,8 +283,8 @@ window.SYLLABUS_DATA = {
           venue: "Quarterly Journal of Economics",
           doi: "10.1093/qje/qjad006",
           core: false,
-          abstract:
-            "The authors build a dynamic model in which transitions depend on both evolving values and technological progress, and where democratic politics limits commitment to future policy paths. They show that market failures and government failures can interact to stall or slow a welfare-improving green transition. The framework links political constraints directly to transition speed and feasibility.",
+          localPdf: "papers/Besley & Persson 2023 - The Political Economics of Green Transitions.pdf",
+          abstract: "Reducing the emissions of greenhouse gases may be almost impossible without a green transition—a substantial transformation of consumption and production patterns. To study such transitions, we propose a dynamic model, which differs from the common approach in economics in two ways. First, consumption patterns reflect not just changing prices and taxes, but changing values. Transitions of values and technologies create a dynamic complementarity that can help or hinder a green transition. Second, and unlike fictitious social planners, policy makers in democratic societies cannot commit to future policy paths, as they are subject to regular elections. We show that market failures and government failures can interact to prevent a welfare-increasing green transition from materializing or make an ongoing green transition too slow.",
           abstractStatus: "zotero",
         },
         {
@@ -302,8 +298,7 @@ window.SYLLABUS_DATA = {
           core: true,
           localPdf:
             "papers/Gonzales et al 2023 - The Investment Effects of Market Integration - Evidence From Renewable Energy Expansion in Chile.pdf",
-          abstract:
-            "The paper studies how grid integration in Chile changed generation, prices, costs, emissions, and renewable entry. A structural entry model shows that integration not only improves allocation but also induces additional investment in renewables. Ignoring this investment channel substantially understates the welfare and emissions benefits of market integration.",
+          abstract: "We study the investment effects of market integration on renewable energy expansion. Our theory highlights that market integration not only improves allocative efficiency by gains from trade but also incentivizes new investment in renewable power plants. To test our theoretical predictions, we examine how recent grid expansions in the Chilean electricity market changed electricity production, wholesale prices, generation costs, and renewable investments. We then build a structural model of power plant entry to quantify the impact of market integration with and without the investment effects. We find that the market integration in Chile increased solar generation by around 180%, saved generation costs by 8%, and reduced carbon emissions by 5%. A substantial amount of renewable entry would not have occurred in the absence of market integration. Our findings suggest that ignoring these investment effects would substantially understate the benefits of market integration and its important role in expanding renewable energy.",
           abstractStatus: "zotero",
         },
         {
@@ -315,8 +310,8 @@ window.SYLLABUS_DATA = {
           venue: "Handbook of Industrial Organization",
           doi: "10.1016/bs.hesind.2021.11.017",
           core: false,
-          abstract:
-            "This chapter surveys industrial-organization contributions to energy markets and environmental regulation. It reviews work on auctions, investment, productivity, innovation, and policy design, while highlighting transferable methods for other contexts. It also identifies areas where IO research can further inform climate and energy policy.",
+          localPdf: "papers/Kellogg & Reguant 2021 - Energy and Environmental Markets, Industrial Organization, and Regulation.pdf",
+          abstract: "This chapter discusses contributions that industrial organization economists have made to our understanding of energy markets and environmental regulation. We emphasize the substantive contributions of recent papers while also highlighting how this literature has adopted and sometimes augmented theoretical and empirical tools from industrial organization. Many of the topics examined by this literature—especially auctions, investment, productivity and innovation, and regulation—also apply to a variety of settings beyond energy and the environment. We also indicate areas where future research is likely to be fruitful, with an emphasis on how industrial organization economists can help inform energy and environmental policies.",
           abstractStatus: "zotero",
         },
         {
@@ -328,8 +323,8 @@ window.SYLLABUS_DATA = {
           venue: "American Economic Journal: Microeconomics",
           doi: "10.1257/mic.20180191",
           core: false,
-          abstract:
-            "Using confidential bidding data from India, this paper studies how transmission constraints affect market competitiveness in power trading. Congestion reduces competition and raises bid prices, while counterfactual expansions in transmission increase market surplus by about 22 percent. A substantial share of gains comes from strategic firm responses to greater market integration.",
+          localPdf: "papers/Ryan 2021 - The Competitive Effects of Transmission Infrastructure in the Indian Electricity Market.pdf",
+          abstract: "The integration of markets may improve efficiency by lowering costs or reducing local market power. India, seeking to reduce electricity shortages, set up a new power market, in which transmission constraints sharply limit trade between regions. During congested hours, measures of market competitiveness fall and firms raise bid prices. I use confidential bidding data to estimate the costs of power supply and simulate market outcomes with more transmission capacity. Counterfactual simulations show that transmission expansion increases market surplus by 22 percent, enough to justify the investment. One-third of this gain is due to sellers’ response to a more integrated grid. (JEL H54, L13, L94, O13, Q41)",
           abstractStatus: "zotero",
         },
         {
@@ -341,8 +336,8 @@ window.SYLLABUS_DATA = {
           venue: "Econometrica",
           doi: "10.3982/ECTA17041",
           core: false,
-          abstract:
-            "This paper documents widespread renegotiation in Indian power-procurement contracts and studies how weak enforcement affects bidding and efficiency. A structural scoring-auction model with heterogeneous firms shows that expected renegotiation induces below-cost bidding and misallocation toward firms better positioned for renegotiation. Simulations indicate stricter enforcement would reduce markups and improve productive efficiency.",
+          localPdf: "papers/Ryan 2020 - Contract Enforcement and Productive Efficiency.pdf",
+          abstract: "Weak contract enforcement may reduce the efficiency of production in developing countries. I study how contract enforcement affects efficiency in procurement auctions for the largest power projects in India. I gather data on bidding and ex post contract renegotiation and find that the renegotiation of contracts in response to cost shocks is widespread, despite that bidders are allowed to index their bids to future costs like the price of coal. To study heterogeneity in bidding strategies, I construct a new measure of firm connectedness, based on whether a firm has been awarded coal concessions by the Government. Connected firms choose to index less of the value of their bids to coal prices and, through this strategy, expose themselves to cost shocks to induce renegotiation. I use a structural model of bidding in a scoring auction to characterize equilibrium bidding when bidders are heterogeneous both in cost and in the payments they expect after renegotiation. The model estimates show that bidders offer power\n              below\n              cost due to the expected value of later renegotiation. The model is used to simulate bidding and efficiency with strict contract enforcement. Contract enforcement is found to be pro‐competitive. With no renegotiation, equilibrium bids would rise to cover cost, but markups relative to total contract value fall sharply. Production costs decline, due to projects being allocated to lower‐cost bidders over those who expect larger payments in renegotiation.",
           abstractStatus: "zotero",
         },
       ],
