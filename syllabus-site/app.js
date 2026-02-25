@@ -75,7 +75,7 @@
       const sectionChevron = document.createElement("span");
       sectionChevron.className = "section-chevron";
       sectionChevron.setAttribute("aria-hidden", "true");
-      sectionChevron.textContent = ">";
+      sectionChevron.innerHTML = '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
       sectionMain.appendChild(sectionTitle);
       sectionMain.appendChild(sectionCount);
@@ -112,7 +112,6 @@
         setExpanded(expanded) {
           this.expanded = Boolean(expanded);
           this.button.setAttribute("aria-expanded", this.expanded ? "true" : "false");
-          this.panel.hidden = !this.expanded;
           this.root.classList.toggle("is-open", this.expanded);
         },
       };
@@ -169,15 +168,15 @@
     links.className = "paper-links";
 
     if (paper.localPdf) {
-      links.appendChild(buildLink(paper.localPdf, "Local PDF"));
+      links.appendChild(buildLink(paper.localPdf, "PDF"));
     }
 
     if (paper.doi) {
-      links.appendChild(buildLink(doiToUrl(paper.doi), "DOI"));
+      links.appendChild(buildLink(doiToUrl(paper.doi), "Publisher"));
     }
 
     if (paper.url) {
-      links.appendChild(buildLink(paper.url, "Link"));
+      links.appendChild(buildLink(paper.url, "Publisher"));
     }
 
     toggle.appendChild(titleRow);
@@ -189,7 +188,6 @@
     const abstract = document.createElement("div");
     abstract.className = "paper-abstract";
     abstract.id = abstractId;
-    abstract.hidden = true;
 
     if (paper.abstractStatus === "placeholder") {
       abstract.classList.add("is-placeholder");
@@ -208,7 +206,7 @@
     toggle.addEventListener("click", () => {
       const expanded = toggle.getAttribute("aria-expanded") === "true";
       toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
-      abstract.hidden = expanded;
+      abstract.classList.toggle("is-open", !expanded);
     });
 
     header.appendChild(toggle);
@@ -232,7 +230,7 @@
       core: Boolean(paper.core),
       close() {
         this.toggle.setAttribute("aria-expanded", "false");
-        this.abstract.hidden = true;
+        this.abstract.classList.remove("is-open");
       },
     };
   }
