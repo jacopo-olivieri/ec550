@@ -316,6 +316,23 @@ input[type="checkbox"] {
   transition: max-height 320ms ease;
 }
 
+.subsection-block {
+  padding: 4px 0 0;
+}
+
+.subsection-block + .subsection-block {
+  border-top: 1px solid var(--line);
+}
+
+.subsection-title {
+  margin: 10px 18px 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
 .paper-list {
   list-style: none;
   margin: 0;

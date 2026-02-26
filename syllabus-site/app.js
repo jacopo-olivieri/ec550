@@ -86,18 +86,54 @@
       const panel = document.createElement("div");
       panel.className = "section-panel";
       panel.id = panelId;
+      const groupStates = [];
+      let paperOrdinal = 0;
 
-      const paperList = document.createElement("ul");
-      paperList.className = "paper-list";
+      const subsections = Array.isArray(section.subsections) ? section.subsections : [];
+      if (subsections.length > 0) {
+        subsections.forEach((subsection, subsectionIndex) => {
+          const subsectionBlock = document.createElement("section");
+          subsectionBlock.className = "subsection-block";
+          subsectionBlock.dataset.subsectionId =
+            subsection.id || `${sectionCard.dataset.sectionId}-subsection-${subsectionIndex + 1}`;
 
-      const papers = Array.isArray(section.papers) ? section.papers : [];
-      const paperNodes = papers.map((paper, paperIndex) => {
-        const node = createPaperNode(paper, sectionCard.dataset.sectionId, paperIndex);
-        paperList.appendChild(node.root);
-        return node;
-      });
+          const subsectionTitle = document.createElement("h3");
+          subsectionTitle.className = "subsection-title";
+          subsectionTitle.textContent = subsection.title || `Subsection ${subsectionIndex + 1}`;
+          subsectionBlock.appendChild(subsectionTitle);
 
-      panel.appendChild(paperList);
+          const paperList = document.createElement("ul");
+          paperList.className = "paper-list";
+
+          const subsectionPapers = Array.isArray(subsection.papers) ? subsection.papers : [];
+          const paperNodes = subsectionPapers.map((paper) => {
+            const node = createPaperNode(paper, sectionCard.dataset.sectionId, paperOrdinal);
+            paperOrdinal += 1;
+            paperList.appendChild(node.root);
+            return node;
+          });
+
+          subsectionBlock.appendChild(paperList);
+          panel.appendChild(subsectionBlock);
+          groupStates.push({ root: subsectionBlock, papers: paperNodes });
+        });
+      } else {
+        const paperList = document.createElement("ul");
+        paperList.className = "paper-list";
+
+        const papers = Array.isArray(section.papers) ? section.papers : [];
+        const paperNodes = papers.map((paper) => {
+          const node = createPaperNode(paper, sectionCard.dataset.sectionId, paperOrdinal);
+          paperOrdinal += 1;
+          paperList.appendChild(node.root);
+          return node;
+        });
+
+        panel.appendChild(paperList);
+        groupStates.push({ root: paperList, papers: paperNodes });
+      }
+
+      const paperNodes = groupStates.flatMap((group) => group.papers);
       sectionCard.appendChild(sectionButton);
       sectionCard.appendChild(panel);
       refs.sections.appendChild(sectionCard);
@@ -107,9 +143,10 @@
         button: sectionButton,
         panel,
         count: sectionCount,
+        groups: groupStates,
         papers: paperNodes,
         totalCount: paperNodes.length,
-        expanded: true,
+        expanded: !section.collapsedByDefault,
         setExpanded(expanded) {
           this.expanded = Boolean(expanded);
           this.button.setAttribute("aria-expanded", this.expanded ? "true" : "false");
@@ -303,22 +340,29 @@
     state.sections.forEach((section) => {
       let sectionVisible = 0;
 
-      section.papers.forEach((paper) => {
-        totalPapers += 1;
+      section.groups.forEach((group) => {
+        let groupVisible = 0;
 
-        const matchesQuery = !state.query || paper.searchable.includes(state.query);
-        const matchesCore = !state.coreOnly || paper.core;
-        const matches = matchesQuery && matchesCore;
+        group.papers.forEach((paper) => {
+          totalPapers += 1;
 
-        paper.root.hidden = !matches;
-        if (!matches) {
-          paper.close();
-        }
+          const matchesQuery = !state.query || paper.searchable.includes(state.query);
+          const matchesCore = !state.coreOnly || paper.core;
+          const matches = matchesQuery && matchesCore;
 
-        if (matches) {
-          sectionVisible += 1;
-          visiblePapers += 1;
-        }
+          paper.root.hidden = !matches;
+          if (!matches) {
+            paper.close();
+          }
+
+          if (matches) {
+            groupVisible += 1;
+            visiblePapers += 1;
+          }
+        });
+
+        group.root.hidden = groupVisible === 0;
+        sectionVisible += groupVisible;
       });
 
       section.root.hidden = sectionVisible === 0;

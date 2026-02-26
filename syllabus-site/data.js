@@ -16,6 +16,58 @@ window.SYLLABUS_DATA = {
   },
   sections: [
     {
+      id: "sustainable-energy-transition",
+      title: "Sustainable Energy Transition",
+      collapsedByDefault: true,
+      subsections: [
+        {
+          id: "carbon-markets-and-emissions-trading",
+          title: "Carbon Markets and Emissions Trading",
+          papers: [
+            {
+              id: "clausing_colmer_hsiao_wolfram_2025",
+              title: "The Global Effects of Carbon Border Adjustment Mechanisms",
+              authors: [
+                "Kimberly A. Clausing",
+                "Jonathan M. Colmer",
+                "Allan Hsiao",
+                "Catherine Wolfram",
+              ],
+              year: 2025,
+              venue: "NBER Working Paper 33723",
+              doi: "10.3386/w33723",
+              core: false,
+              localPdf:
+                "papers/Clausing et al 2025 - The Global Effects of Carbon Border Adjustment Mechanisms.pdf",
+              abstract:
+                "Climate change poses a collective action problem: individual countries bear the costs of carbon regulation, while the benefits are shared globally. Carbon border adjustment mechanisms (CBAMs), which are currently being implemented by the EU and UK, aim to realign incentives by improving domestic competitiveness, reducing emissions leakage, and encouraging other countries to tax carbon. However, policy discussions also note that CBAMs could unfairly disadvantage lower-income trading partners. We evaluate these issues with a quantitative trade model and plant-level data for two key industries - steel and aluminum - which are the focus of early CBAM implementation. Together, they account for 14% of global emissions. We show that CBAMs can facilitate collective climate action, while largely avoiding disproportionate burdens on lower-income countries.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "greenstone_pande_ryan_sudarshan_2025",
+              title:
+                "Can Pollution Markets Work in Developing Countries? Experimental Evidence from India",
+              authors: [
+                "Michael Greenstone",
+                "Rohini Pande",
+                "Nicholas Ryan",
+                "Anant Sudarshan",
+              ],
+              year: 2025,
+              venue: "Quarterly Journal of Economics",
+              doi: "10.1093/qje/qjaf009",
+              core: false,
+              localPdf:
+                "papers/Greenstone et al 2025 - Can Pollution Markets Work in Developing Countries.pdf",
+              abstract:
+                "Market-based environmental regulations are seldom used in low-income countries, where pollution is highest but state capacity is often low. We collaborated with the Gujarat Pollution Control Board (GPCB) to design and experimentally evaluate the world's first particulate-matter emissions market, which covered industrial plants in a large Indian city. There are three main findings. First, the market functioned well. Treatment plants, randomly assigned to the emissions market, traded permits to become significant net sellers or buyers. After trading, treatment plants held enough permits to cover their emissions 99% of the time, compared with just 66% compliance with standards under the command-and-control status quo. Second, treatment plants reduced pollution emissions, relative to control plants, by 20%-30%. Third, the market reduced abatement costs by an estimated 11%, holding constant emissions. This cost-savings estimate is based on plant-specific marginal cost curves that we estimate from the universe of bids to buy and sell permits in the market. The combination of pollution reductions and low costs imply that the emissions market has mortality benefits that exceed its costs by at least 25 times. JEL codes: O13, Q56, L51.",
+              abstractStatus: "zotero",
+            },
+          ],
+        },
+      ],
+    },
+    {
       id: "subsistence",
       title: "Subsistence",
       papers: [
