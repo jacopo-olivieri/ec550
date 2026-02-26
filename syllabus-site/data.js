@@ -228,6 +228,34 @@ window.SYLLABUS_DATA = {
                 "We study an energy efficient charcoal cookstove in an experiment with 1,000 households in Nairobi. We estimate a 39 percent reduction in charcoal spending, which matches engineering estimates, generating a 295 percent annual return. Despite fuel savings of $237 over the stove's two-year lifespan—and $295 in emissions reductions—households are only willing to pay $12. Drawing attention to energy savings does not increase demand. However, a loan more than doubles willingness to pay: credit constraints prevent adoption of privately optimal technologies. Energy efficient technologies could drive sustainable development by slowing greenhouse emissions while saving households money.",
               abstractStatus: "zotero",
             },
+            {
+              id: "ryan_sudarshan_2022_rationing_the_commons",
+              title: "Rationing the Commons",
+              authors: ["Nicholas Ryan", "Anant Sudarshan"],
+              year: 2022,
+              venue: "Journal of Political Economy",
+              doi: "10.1086/717045",
+              core: false,
+              localPdf: "papers/Ryan & Sudarshan 2022 - Rationing the Commons.pdf",
+              abstract:
+                "Common resources may be managed with inefficient policies for the sake of equity. We study how rationing the commons shapes the efficiency and equity of resource use in the context of agricultural groundwater use in Rajasthan, India. We find that rationing binds on input use, such that farmers, despite trivial prices for water extraction, use roughly the socially optimal amount of water on average. The rationing regime is still grossly inefficient, because it misallocates water across farmers, lowering productivity. Pigouvian reform would increase agricultural surplus by 12% of household income yet fall well short of a Pareto improvement over rationing.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "mahadevan_2024_price_of_power_political_corruption_indian_electricity",
+              title:
+                "The Price of Power: Costs of Political Corruption in Indian Electricity",
+              authors: ["Meera Mahadevan"],
+              year: 2024,
+              venue: "American Economic Review",
+              doi: "10.1257/aer.20230248",
+              core: false,
+              localPdf:
+                "papers/Mahadevan 2024 - The Price of Power - Costs of Political Corruption in Indian Electricity.pdf",
+              abstract:
+                "Politicians may target public goods to benefit their constituents, at the expense of others. I study corruption in the context of Indian electricity and estimate the welfare consequences. Using new administrative billing data and close-election regression discontinuities, I show that billed electricity consumption is lower for constituencies of the winning party by almost 40 percent, while actual consumption, measured by nighttime lights, is higher. I document the covert way in which politicians subsidize constituents by manipulating bills. These actions have substantial welfare implications, with an efficiency loss of US$0.9 billion, leading to unreliable electricity supply and significant negative consequences for development.",
+              abstractStatus: "zotero",
+            },
           ],
         },
       ],
