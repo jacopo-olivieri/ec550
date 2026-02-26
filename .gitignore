@@ -1,0 +1,16 @@
+# EC550 repository ignore policy
+# Keep the repository lean by ignoring everything by default,
+# then explicitly allow the parts we want versioned.
+*
+
+# Always keep the ignore file itself in version control.
+!.gitignore
+
+# Keep GitHub metadata (workflows, issue templates, etc.) tracked.
+!.github/
+!.github/**
+
+# Keep the syllabus site for the 2025-2026 cohort and all nested files.
+!2025-2026/
+!2025-2026/syllabus-site/
+!2025-2026/syllabus-site/**

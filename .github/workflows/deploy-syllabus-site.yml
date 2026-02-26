@@ -4,7 +4,7 @@ on:
   push:
     branches: [main, master]
     paths:
-      - 'syllabus-site/**'
+      - '2025-2026/syllabus-site/**'
       - '.github/workflows/deploy-syllabus-site.yml'
   workflow_dispatch:
 
@@ -34,7 +34,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./syllabus-site
+          path: ./2025-2026/syllabus-site
 
       - name: Deploy to GitHub Pages
         id: deployment

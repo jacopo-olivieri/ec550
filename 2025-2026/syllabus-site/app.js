@@ -105,7 +105,9 @@
           const paperList = document.createElement("ul");
           paperList.className = "paper-list";
 
-          const subsectionPapers = Array.isArray(subsection.papers) ? subsection.papers : [];
+          const subsectionPapers = getSortedPapers(
+            Array.isArray(subsection.papers) ? subsection.papers : []
+          );
           const paperNodes = subsectionPapers.map((paper) => {
             const node = createPaperNode(paper, sectionCard.dataset.sectionId, paperOrdinal);
             paperOrdinal += 1;
@@ -121,7 +123,7 @@
         const paperList = document.createElement("ul");
         paperList.className = "paper-list";
 
-        const papers = Array.isArray(section.papers) ? section.papers : [];
+        const papers = getSortedPapers(Array.isArray(section.papers) ? section.papers : []);
         const paperNodes = papers.map((paper) => {
           const node = createPaperNode(paper, sectionCard.dataset.sectionId, paperOrdinal);
           paperOrdinal += 1;
@@ -271,6 +273,19 @@
         this.abstract.classList.remove("is-open");
       },
     };
+  }
+
+  function getSortedPapers(papers) {
+    return [...papers].sort((left, right) => {
+      const leftTitle = String(left?.title || "").trim().toLowerCase();
+      const rightTitle = String(right?.title || "").trim().toLowerCase();
+
+      if (!leftTitle && !rightTitle) return 0;
+      if (!leftTitle) return 1;
+      if (!rightTitle) return -1;
+
+      return leftTitle.localeCompare(rightTitle, undefined, { numeric: true, sensitivity: "base" });
+    });
   }
 
   function buildCitationLine(paper) {
