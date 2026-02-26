@@ -4,7 +4,7 @@ window.SYLLABUS_DATA = {
     title: "Development Economics for Research Students II",
     subtitle: "The Economics of Sustainable Development",
     instructor: "Robin Burgess",
-    academicYear: "2024-2025",
+    academicYear: "2025-2026",
     overview: [
       "There is now a central tension between economic growth, which is critical to poverty reduction, and the externalities from that economic growth in the form of climate change. How we steer a path towards continued prosperity in developing countries depends critically on how we balance the need for growth with the externalities from growth.",
       "This is important for two main reasons. First, growth is most needed in the world's poorer nations. Second, populations in these same nations are the ones that are being most hit by environmental damages such as climate change, which emanate from growth. This part of the course is all about the economics of sustainable development.",
