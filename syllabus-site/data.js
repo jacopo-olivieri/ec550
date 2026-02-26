@@ -63,6 +63,130 @@ window.SYLLABUS_DATA = {
                 "Market-based environmental regulations are seldom used in low-income countries, where pollution is highest but state capacity is often low. We collaborated with the Gujarat Pollution Control Board (GPCB) to design and experimentally evaluate the world's first particulate-matter emissions market, which covered industrial plants in a large Indian city. There are three main findings. First, the market functioned well. Treatment plants, randomly assigned to the emissions market, traded permits to become significant net sellers or buyers. After trading, treatment plants held enough permits to cover their emissions 99% of the time, compared with just 66% compliance with standards under the command-and-control status quo. Second, treatment plants reduced pollution emissions, relative to control plants, by 20%-30%. Third, the market reduced abatement costs by an estimated 11%, holding constant emissions. This cost-savings estimate is based on plant-specific marginal cost curves that we estimate from the universe of bids to buy and sell permits in the market. The combination of pollution reductions and low costs imply that the emissions market has mortality benefits that exceed its costs by at least 25 times. JEL codes: O13, Q56, L51.",
               abstractStatus: "zotero",
             },
+            {
+              id: "shapiro_2021_environmental_bias_trade_policy",
+              title: "The Environmental Bias of Trade Policy",
+              authors: ["Joseph S. Shapiro"],
+              year: 2021,
+              venue: "Quarterly Journal of Economics",
+              doi: "10.1093/qje/qjaa042",
+              core: false,
+              localPdf:
+                "papers/Shapiro 2021 - The Environmental Bias of Trade Policy.pdf",
+              abstract:
+                "This article describes a new fact, then analyzes its causes and consequences: in most countries, import tariffs and nontariff barriers are substantially lower on dirty than on clean industries, where an industry’s “dirtiness” is defined as its carbon dioxide (CO2) emissions per dollar of output. This difference in trade policy creates a global implicit subsidy to CO2 emissions in internationally traded goods and contributes to climate change. This global implicit subsidy to CO2 emissions totals several hundred billion dollars annually. The greater protection of downstream industries, which are relatively clean, substantially accounts for this pattern. The downstream pattern can be explained by theories where industries lobby for low tariffs on their inputs but final consumers are poorly organized. A quantitative general equilibrium model suggests that if countries applied similar trade policies to clean and dirty goods, global CO2 emissions would decrease and global real income would change little. JEL Codes: Q50, Q56, F6, F13, F18, H23.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "kanzig_2023_unequal_economic_consequences_carbon_pricing",
+              title: "The Unequal Economic Consequences of Carbon Pricing",
+              authors: ["Diego R. Känzig"],
+              year: 2023,
+              venue: "NBER Working Paper 31221",
+              doi: "10.3386/w31221",
+              core: false,
+              localPdf:
+                "papers/Kanzig 2023 - The Unequal Economic Consequences of Carbon Pricing.pdf",
+              abstract:
+                "This paper studies the economic impacts of carbon pricing. Exploiting institutional features of the European carbon market and high-frequency data, I identify carbon policy shocks and trace their dynamic effects. A restrictive carbon policy shock raises energy prices, reduces emissions, spurs green innovation, but decreases economic activity—disproportionately burdening poorer households. Not only are the poor more affected because of their higher energy spending, but they also experience larger income losses. These indirect, general-equilibrium effects via income and employment play an important role in the transmission of carbon pricing policies, accounting for about two-thirds of the aggregate consumption response.",
+              abstractStatus: "zotero",
+            },
+          ],
+        },
+        {
+          id: "clean-energy-adoptation",
+          title: "Clean Energy Adoptation",
+          papers: [
+            {
+              id: "coville_graff_zivin_reichert_reitmann_2025",
+              title:
+                "Quality signaling and demand for renewable energy technology: Evidence from a randomized field experiment",
+              authors: [
+                "Aidan Coville",
+                "Joshua Graff Zivin",
+                "Arndt Reichert",
+                "Ann-Kristin Reitmann",
+              ],
+              year: 2025,
+              venue: "Journal of Development Economics",
+              doi: "10.1016/j.jdeveco.2025.103514",
+              core: false,
+              localPdf:
+                "papers/Coville et al 2025 - Quality signaling and demand for renewable energy technology.pdf",
+              abstract:
+                "Solar technologies have been associated with private and social returns, but their technological potential often remains unachieved because of persistently low demand for high-quality products. In a randomized field experiment in Senegal, we assess the potential of three types of quality signaling to increase demand for high-quality solar lamps. We find no effect on demand when consumers are offered a money-back guarantee but increased demand with a third-party certification or warranty, consistent with the notion that consumers are uncertain about product durability rather than their utility. However, despite the higher willingness to pay, the prices they would pay are still well below market prices for the average household, suggesting that reducing information asymmetries alone is insufficient to encourage wider adoption. Surprisingly, we also find that the effective quality signals in our setting stimulate demand for low-quality products by creating product-class effects among those least familiar with the product.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "aghion_dechezlepretre_hemous_martin_van_reenen_2016",
+              title:
+                "Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry",
+              authors: [
+                "Philippe Aghion",
+                "Antoine Dechezleprêtre",
+                "David Hémous",
+                "Ralf Martin",
+                "John Van Reenen",
+              ],
+              year: 2016,
+              venue: "Journal of Political Economy",
+              url: "https://www.jstor.org/stable/26549857",
+              core: false,
+              localPdf:
+                "papers/Aghion et al 2016 - Carbon Taxes, Path Dependency, and Directed Technical Change.pdf",
+              abstract:
+                "Can directed technical change be used to combat climate change? We construct new firm-level panel data on auto industry innovation distinguishing between “dirty” (internal combustion engine) and “clean” (e.g., electric, hybrid, and hydrogen) patents across 80 countries over several decades. We show that firms tend to innovate more in clean (and less in dirty) technologies when they face higher tax-inclusive fuel prices. Furthermore, there is path dependence in the type of innovation (clean/dirty) both from aggregate spillovers and from the firm’s own innovation history. We simulate the increases in carbon taxes needed to allow clean technologies to overtake dirty technologies.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "arkolakis_walsh_2023_clean_growth",
+              title: "Clean Growth",
+              authors: ["Costas Arkolakis", "Conor Walsh"],
+              year: 2023,
+              venue: "NBER Working Paper 31615",
+              doi: "10.3386/w31615",
+              core: false,
+              localPdf: "papers/Arkolakis & Walsh 2023 - Clean growth.pdf",
+              abstract:
+                "We provide a spatial theory of clean growth to assess the global impact of the rise of renewable energy. We model the details of the combined production and transmission network of electricity (“the grid”) that determine the supply and losses of energy in space. The local rate of clean energy adoption depends on learning-by-doing, the global electricity and trade network, and regional comparative advantage in renewable resources. We use the model to measure the aggregate and spatial implications of clean growth. We find that the world’s power system is likely to be dominated by renewables by 2040 in a range of scenarios, with substantial welfare gains, even in the absence of policy. Incorporating policy, we find that the US Inflation Reduction Act significantly accelerates renewable uptake, and generates substantial economic benefits. In addition, planned grid improvements lower prices substantially in many areas of the US, justifying their cost of construction.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "banares_sanchez_burgess_laszlo_simpson_van_reenen_wang_2023_clean_energy",
+              title: "Ray of Hope? China and the rise of Solar Energy",
+              authors: [
+                "Ignacio Banares-Sanchez",
+                "Robin Burgess",
+                "David Laszlo",
+                "Pol Simpson",
+                "John Van Reenen",
+                "Yifan Wang",
+              ],
+              year: 2023,
+              venue: "Preprint",
+              url: "https://ignaciobanares.com/solar.pdf",
+              core: false,
+              localPdf:
+                "papers/Banares-Sanchez et al 2023 - Ray of Hope - China and the rise of Solar Energy.pdf",
+              abstract:
+                "The rapid decline in the global cost of solar panels coincided with China’s growing market dominance in solar photovoltaics (PV) from the early 2000s. We evaluate the effectiveness of local, city-level policy efforts to encourage the growth of the solar industry in China. We develop novel measures covering all policies since their inception based on text analysis; construct original data on patenting, production and trade; and implement a synthetic difference-in-differences approach. We show that city-level subsidies for solar production cause large increases in the production of solar panels and - with a lag - also raise innovation and the productivity of solar panel manufacturers relative to firms in matched control cities that did not implement such policies. Cities which combined production subsidies with R&D support showcased even larger positive effects on solar innovation and production. We also document positive impacts on solar firm numbers, revenues, and exports from these production and innovation subsidies. In contrast, demand/installation subsidies targeted at increasing city-level generation of solar electricity have no significant impact on city-level solar innovation and production as additional demand can be met with solar panels produced in other Chinese cities. These results are consistent with the predictions of a model in which electricity is supplied locally using components (e.g. solar panels) sourced from heterogeneous manufacturers across China, who endogenously choose whether to pay the fixed costs of innovating and/or exporting. Taken together, these results suggest that industrial policy can foster innovation and growth in clean energy. The fact that we observe this in an industry that is displacing dirty energy generation worldwide magnifies the importance of our findings.",
+              abstractStatus: "zotero",
+            },
+            {
+              id: "gonzales_ito_reguant_2023_market_integration_clean_energy",
+              title:
+                "The Investment Effects of Market Integration: Evidence From Renewable Energy Expansion in Chile",
+              authors: ["Luis E. Gonzales", "Koichiro Ito", "Mar Reguant"],
+              year: 2023,
+              venue: "Econometrica",
+              doi: "10.3982/ECTA20769",
+              core: false,
+              localPdf:
+                "papers/Gonzales et al 2023 - The Investment Effects of Market Integration - Evidence From Renewable Energy Expansion in Chile.pdf",
+              abstract:
+                "We study the investment effects of market integration on renewable energy expansion. Our theory highlights that market integration not only improves allocative efficiency by gains from trade but also incentivizes new investment in renewable power plants. To test our theoretical predictions, we examine how recent grid expansions in the Chilean electricity market changed electricity production, wholesale prices, generation costs, and renewable investments. We then build a structural model of power plant entry to quantify the impact of market integration with and without the investment effects. We find that the market integration in Chile increased solar generation by around 180%, saved generation costs by 8%, and reduced carbon emissions by 5%. A substantial amount of renewable entry would not have occurred in the absence of market integration. Our findings suggest that ignoring these investment effects would substantially understate the benefits of market integration and its important role in expanding renewable energy.",
+              abstractStatus: "zotero",
+            },
           ],
         },
       ],
